@@ -4,8 +4,12 @@
   "description": "Cache is not busted when deeply nested `.scss` file is modified.",
   "main": "index.js",
   "scripts": {
+    "start": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Juan Carlos Medina",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "webpack": "^3.8.1"
+  }
 }
