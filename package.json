@@ -10,6 +10,7 @@
   "author": "Juan Carlos Medina",
   "license": "ISC",
   "dependencies": {
+    "cache-loader": "^1.2.0",
     "css-loader": "^0.28.7",
     "style-loader": "^0.19.0",
     "webpack": "^3.8.1"
