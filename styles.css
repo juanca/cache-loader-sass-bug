@@ -1,4 +1,4 @@
 .container {
-  composes: container from './stylesheets/normal-box.css';
+  composes: container from './stylesheets/normal-box.scss';
   border: 1px solid black;
 }

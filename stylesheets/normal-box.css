@@ -1,4 +1,0 @@
-.container {
-  composes: container from './height.css';
-  composes: container from './width.css';
-}

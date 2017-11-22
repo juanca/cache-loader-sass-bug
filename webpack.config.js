@@ -8,11 +8,12 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.css$/,
+        test: /\.s?css$/,
         use: [
           'style-loader',
           'cache-loader',
           { loader: 'css-loader', options: { modules: true } },
+          'sass-loader',
         ],
       },
     ],
