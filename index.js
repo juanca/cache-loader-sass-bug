@@ -1,4 +1,4 @@
-import styles from './styles.css';
+import styles from './index.css';
 
 console.log('Sanity check.');
 
