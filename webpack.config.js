@@ -11,8 +11,8 @@ module.exports = {
         test: /\.s?css$/,
         use: [
           'style-loader',
-          'cache-loader',
           { loader: 'css-loader', options: { modules: true } },
+          'cache-loader',
           'sass-loader',
         ],
       },
