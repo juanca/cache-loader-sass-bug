@@ -1,5 +1,6 @@
 module.exports = {
   devServer: {
+    inline: false,
     hot: false,
   },
 
