@@ -1,4 +1,8 @@
+@import './stylesheets/_global-background-color.scss';
+
 .container {
-  composes: container from './stylesheets/normal-box.scss';
   border: 1px solid black;
+  border-radius: 3px;
+  height: 100px;
+  width: 10px;
 }

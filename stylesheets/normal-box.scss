@@ -1,6 +1,0 @@
-@import './_global-box.scss';
-
-.container {
-  composes: container from './height.scss';
-  composes: container from './width.scss';
-}
