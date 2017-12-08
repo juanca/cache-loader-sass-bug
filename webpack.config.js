@@ -1,4 +1,8 @@
 module.exports = {
+  devServer: {
+    hot: false,
+  },
+
   entry: './index.js',
 
   output: {
